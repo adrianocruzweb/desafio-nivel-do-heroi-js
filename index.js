@@ -78,4 +78,4 @@ switch (true) {
         break;
 }
 
-console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
+console.log("O herói de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
