@@ -51,37 +51,31 @@ let nivel = "";
 switch (true) {
     case (nivelDoHeroi < 1000):
         nivel = "Ferro";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
     case (nivelDoHeroi >= 1001 && nivelDoHeroi <= 2000):
         nivel = "Brinze";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
     case (nivelDoHeroi >= 2001 && nivelDoHeroi <= 5000):
         nivel = "Prata";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
     case (nivelDoHeroi >= 5001 && nivelDoHeroi <= 7000):
         nivel = "Ouro";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
     case (nivelDoHeroi >= 7001 && nivelDoHeroi <= 8000):
         nivel = "Platina";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
     case (nivelDoHeroi >= 8001 && nivelDoHeroi <= 9000):
         nivel = "Ascendente";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
     case (nivelDoHeroi >= 9001 && nivelDoHeroi <= 10000):
         nivel = "Imortal";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
     case (nivelDoHeroi >= 10001):
         nivel = "Radiante";
-        console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
         break;
 
     default:
         break;
 }
+
+console.log("O heroi de nome **"+nomeDoHeroi+"** está no nível de **"+nivel+"**");
